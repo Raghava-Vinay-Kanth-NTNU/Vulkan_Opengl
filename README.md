@@ -7,7 +7,7 @@ Commands to build:
 1. Cmake from build folder 
 mkdir build
 cd build
-cmake -G "MinGW Makefiles" .
+cmake -G "MinGW Makefiles" ..
 MinGW32-make
 
 (or)
@@ -22,3 +22,4 @@ lib folder is not included in this repository.
 
 Drive link for required lib files ( https://drive.google.com/drive/u/1/folders/1e2XTAf4MCXus7fuNGw7480hNPivhjhop )
 
+Place shaders folder from the above link to build folder if executing with Cmake
